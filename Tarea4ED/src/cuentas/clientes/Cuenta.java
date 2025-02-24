@@ -12,9 +12,11 @@ public class Cuenta {
     public Cuenta()
     {
         nombre ="";
+        apellidos =""; //Nueva linea añadida v1.3
         cuenta="";
         saldo=0;
         tipoInteres=0;
+        facturaLuz; //Nueva linea añadida v1.3
     }
 
     public Cuenta(String nom, String cue, double sal, double tipo)
