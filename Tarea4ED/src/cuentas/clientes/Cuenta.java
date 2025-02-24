@@ -7,6 +7,7 @@ public class Cuenta {
     private String cuenta;
     private double saldo;
     private double tipoInteres;
+    private double facturaLuz; //Nueva linea añadida v1.2
 
     public Cuenta()
     {
